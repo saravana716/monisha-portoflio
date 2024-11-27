@@ -1,0 +1,164 @@
+.about{
+    height: 400px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+.abt-img{
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--tranparent-div);
+}
+.abt-img img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+}
+.intro-container{
+    width: 60%;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 400px;
+}
+.intro-container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.intro-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.intro-head p{
+    font-size: 45px;
+    color: var(--para-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abt-intro{
+    background-color: var(--tranparent-div);
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 0px 30px 35px 30px;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 17px !important;
+}
+.abt-intro h1{
+    font-size: 35px !important;
+    font-weight: 800 !important;
+    text-align: start !important;   
+    margin: 27px 0 23px 0;
+    color: var(--theme-color);
+}
+.arrow-icon{
+    color: var(--para-color);
+    font-size: 85px !important;
+}
+.education{
+    background-color: var(--tranparent-div);
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.whole-div{
+    display: flex;
+    gap: 30px;
+    width: 85%;
+    margin: 60px auto 0  auto;
+}
+.education-container{
+    background-color: var(--tranparent-div);
+    width: 50%;
+    height: 350px;
+    border-radius: 25px;
+    padding: 30px;
+}
+.skills-container{
+    background-color: var(--tranparent-div);
+    width: 50%;
+    height: 350px;
+    border-radius: 25px;
+    padding: 30px;
+}
+.whole-div h3{
+    color: var(--font-color);
+}
+.contact-container{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    gap: 25px;
+}
+.credentials1{
+    width: 25%;
+    background-color: var(--tranparent-div);
+    height: 260px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.credentials1:hover .icon p{
+    color: var(--font-color);
+    transition: 0.5s;
+}
+.credentials1 img{
+    width: 80%;
+    margin: 0 auto;
+    height: 130px;
+    border: none;
+    border-radius: 10px;
+} 
+.skills{
+    width: 85%;
+    margin: 20px auto 0 auto;
+    height: 12px;
+    display: flex;
+    border: solid var(--font-color) 1px;
+    border-radius: 5px;
+    gap: 20px;
+}
+.skills-color1{
+    background-color: var(--theme-color);
+    width: 90%;
+    border-radius: 5px;
+}
+.skills-color2{
+    background-color: var(--theme-color);
+    width: 70%;
+    border-radius: 5px;
+}
+.skills-color3{
+    background-color: var(--theme-color);
+    width: 80%;
+    border-radius: 5px;
+}
+.skills-color4{
+    background-color: var(--theme-color);
+    width: 50%;
+    border-radius: 5px;
+}
+.skills-head{
+    width: 85%;
+    margin: 10px auto 20px auto;
+    display: flex;
+    color: var(--font-color);
+    justify-content: space-between;
+}

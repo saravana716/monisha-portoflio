@@ -1,0 +1,261 @@
+.profile{
+    color: var(--font-color);
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+}
+.image{
+    width: 50%;
+    height: 315px;
+    display: flex;
+    background-color: var(--tranparent-div);
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image img{
+    width: 40%;
+    height: 90%;
+    border-radius: 30px 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.intro h3{
+    font-size: 23px;
+}
+.intro h1{
+    color: var(--theme-color);
+    font-size: 50px;
+    font-weight: 900;
+}
+.intro p{
+    font-size: 17px;
+}
+.latest-works {
+    width: 50%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.latest-works marquee {
+    background-color: var(--tranparent-div);
+    border: none;
+    border-radius: 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.latest-works marquee p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.works{
+    display: flex;
+    gap: 20px;
+}
+.credentials{
+    background-color: var(--tranparent-div);
+    width: 50%;
+    height: 260px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.credentials:hover .icon p{
+    color: var(--font-color);
+    transition: 0.5s;
+}
+.projects{
+    background-color: var(--tranparent-div);
+    width: 50%;
+    height: 260px;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.credentials img{
+    width: 80%;
+    margin: 0 auto;
+    height: 130px;
+    border: none;
+    border-radius: 10px;
+}
+.more-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sub-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sub-div p{
+    color: var(--para-color);
+    font-size: 13px;
+    font-weight: 800;
+}
+.sub-div h2{
+    color: var(--font-color);
+}
+.icon{
+    width: 30%;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: var(--para-color);
+}
+.projects h1{
+    color: var(--para-color);
+    text-align: center;
+    width: 100%;
+    /* position: absolute; */
+}
+.projects img{
+    display: flex;
+    height: 120px;
+    width: 160px;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* /* position: relative; */
+    position: absolute;
+    top: 40px;
+}
+.projects:hover .icon{
+    color: var(--font-color);
+    transition: 0.5s;
+}
+.services{
+    width: 85%;
+    margin: 50px auto 0 auto;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+}
+.medias{
+    height: 260px;
+    width: 25%;
+    background-color: var(--tranparent-div);
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.medias:hover .icon{
+    color: var(--font-color);
+    transition: 0.5s;
+}
+.media-icons{
+    display: flex;   
+    gap: 20px;
+    border-radius: 20px;
+    border: solid var(--border-color) 1px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.media-icons p{
+    border-radius: 100%;
+    border: none;
+    background-color: var(--theme-color);
+    padding: 10px;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+}
+.media-icons p:hover{
+    background-color: var(--font-color);
+    color: var(--background-color);
+    transition: 0.5s;
+}
+.contact-div{
+    width: 50%;
+    height: 260px;
+    background-color: var(--tranparent-div);
+    border-radius: 20px;
+    padding: 0 20px 20px 20px;
+}
+.contact-div:hover .icon{
+    color: var(--font-color);
+    transition: 0.5s;
+}
+.contact-div p{
+    color: var(--para-color);
+    font-size: 85px;
+}
+.contact-head{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-btn{
+    height: 40px;
+    width: 120px;
+    margin: 40px 60px 0 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-weight: 700;
+}
+.contact-btn:hover {
+    background-color: var(--theme-color);
+    transition: 0.5s;
+}
+.more-info h1{
+    color: var(--font-color);
+    font-size: 48px;
+    margin-top: 2 0px;
+}
+.more-info h1 span{
+    color: var(--theme-color);
+}
+.education-div{
+    width: 25%;
+    height: 260px;
+    background-color: var(--tranparent-div);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.education-div img{
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 20px;
+}
+.education-div:hover .icon{
+    color: var(--font-color);
+    transition: 0.5s;
+}

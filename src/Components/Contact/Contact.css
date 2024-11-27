@@ -1,0 +1,137 @@
+.contact{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.contact-info{
+    width: 40%;
+    height: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-info h3{
+    color: var(--font-color );
+    margin-bottom: 20px;
+}
+.mail{
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+}
+.contact-icon{
+    color: var(--font-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+}
+.contact-details h4{
+    color: grey;
+}
+.contact-details p{
+    color: beige;
+}
+.getin-touch{
+    width: 60%;
+    background-color: var(--tranparent-div);
+    height: 580px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.getin-head{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.getin-head p{
+    color: var(--para-color);
+    font-size: 85px;
+    right: 0;
+    top: 0;
+}
+.getin-head h1{
+    color: var(--font-color);
+    margin: 40px 0 0 0;
+}
+.getin-head h1 span{
+    color: var(--theme-color);
+}
+.whole-input1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+}
+.whole-input1 input{
+    height: 40px;
+    width: 50%;
+    padding: 20px;
+    background-color: var(--light-div);
+    border: none;
+    border-radius: 10px;
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 15px;
+}
+.input2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input2 input{
+    height: 40px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-div);
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+.input2 textarea{
+    height: 150px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-div);
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: 500;
+}
+.getin-touch button{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--font-color);
+    background-color: var(--theme-color);
+    border: none;
+    border-radius: 10px;
+}
+.getin-touch button:hover {
+    background-color: var(--font-color);
+    color: var(--background-color);
+    transition: 0.5s;
+}
+.getin-touch button:active{
+    color: var(--font-color);
+    background-color: var(--theme-color);
+}
